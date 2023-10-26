@@ -1,0 +1,51 @@
+section{
+    text-align: center;
+}
+
+form{
+    max-width: 80%;
+    gap: 30px;
+    text-align: justify;
+    margin: 80px 160px;
+    padding: 36px 64px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+}
+
+form .box-interno{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card{
+    margin: 24px 0px;
+}
+
+
+h2{
+    color: #212121;
+    font-family: Prata;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+button{
+    border-radius: 10px;
+    background: #6278F7;
+    width: 167px;
+    height: 80px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    color: #fff;
+}
