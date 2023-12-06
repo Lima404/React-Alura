@@ -1,0 +1,21 @@
+button{
+    border-radius: 10px;
+    background: #6278F7;
+    padding: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+    margin: 32px 0;
+}
+
+button:hover{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    color: #95ffd4;
+    cursor: pointer;
+}
