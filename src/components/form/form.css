@@ -1,12 +1,15 @@
 section{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 form{
-    max-width: 80%;
+    margin: 80px 160px;
+    width: 50%;
     gap: 30px;
     text-align: justify;
-    margin: 80px 160px;
     padding: 36px 64px;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -31,21 +34,4 @@ h2{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-
-button{
-    border-radius: 10px;
-    background: #6278F7;
-    width: 167px;
-    height: 80px;
-    flex-shrink: 0;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: none;
-    color: #fff;
 }
