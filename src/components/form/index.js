@@ -9,6 +9,7 @@ const Formulario = () => {
     const times = [
         'Programação',
         'Front-end',
+        'Data Science',
         'Devops',
         'UX e Desing',
         'Mobile',
@@ -29,7 +30,7 @@ const Formulario = () => {
     return(
         <section>
                 <form onSubmit = {aoSalvar}>
-                    <h2>Preencha os cargos para criar o card do colaborador!</h2>
+                    <h2>Preencha os dados para criar o card do colaborador!</h2>
                     <div className='box-interno'>
                         <div>
                             <CampoTexto 
