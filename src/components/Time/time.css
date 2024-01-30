@@ -1,13 +1,22 @@
-.time { 
+.time {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 32px;
-    background-color: #D9F7E9;
+}
+
+.cards{
+    display: flex;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
 }
 
 
 .time h3{
     font-size: 32px;
-    border-bottom: 4px solid #57C278;
+    border-bottom: 4px solid;
     padding-bottom: 8px;
 }
 
